@@ -1,0 +1,93 @@
+    html {
+        direction: rtl;
+    }
+		/* reset CSS */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+        	/* main styles */
+	body {
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		color: #444;
+		background-image: linear-gradient(to top, #A163F7 50%, #6F88Fc 100%);
+		line-height: 1.6;
+		padding: 1rem;
+        color: white;
+	}
+
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 1rem;
+	}
+
+	h1 {
+		font-size: 3rem;
+		text-align: center;
+		color: white;
+		margin-top: 2rem;
+        width: 100%;
+        background-color: #800472;
+	}
+
+	h2 {
+		font-size: 2rem;
+		color: #333;
+		margin-top: 1.5rem;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		margin-bottom: 1.5rem;
+	}
+
+	ul {
+		margin-bottom: 1.5rem;
+		list-style: square;
+		padding-left: 1.5rem;
+	}
+
+	li {
+		margin-bottom: 0.5rem;
+	}
+
+	/* responsive styles */
+	@media only screen and (max-width: 768px) {
+		h1 {
+			font-size: 2rem;
+		}
+
+		h2 {
+			font-size: 1.5rem;
+		}
+
+		p {
+			font-size: 1rem;
+		}
+	}
+
+	@media only screen and (max-width: 576px) {
+		h1 {
+			font-size: 1.5rem;
+		}
+
+		h2 {
+			font-size: 1.25rem;
+		}
+
+		p {
+			font-size: 0.875rem;
+		}
+	}
+p {
+    font-weight: bold;
+}
+footer {
+    background-color: #6f5f5e;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
